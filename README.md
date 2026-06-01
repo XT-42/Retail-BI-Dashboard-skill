@@ -3,6 +3,7 @@
 
 📂 Skill 文件系统目录结构
 
+```text
 Retail-BI-Copilot/
 ├── 🤖 system_prompt.md            # 核心指令：定义角色、工作流、思考框架与输出规范
 ├── 📁 domains/                    # 6大行业独立知识体系（差异化内核）
@@ -15,6 +16,7 @@ Retail-BI-Copilot/
 └── 📁 templates/                  # 交付物标准模板
     ├── prd_dictionary.md          # 需求文档与指标字典模板
     └── quick_bi_wireframe.md      # Quick BI 专属看板布局设计稿模板
+```
 
 🚀 如何使用这个 Skill 工作？
 只需将 system_prompt.md 粘贴到你的大模型系统指令（System Instructions）中，当业务分析师对大模型说出请求时，例如：
