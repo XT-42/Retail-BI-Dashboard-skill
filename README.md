@@ -4,18 +4,37 @@
 📂 Skill 文件系统目录结构
 
 ```text
-Retail-BI-Copilot/
-├── 🤖 system_prompt.md            # 核心指令：定义角色、工作流、思考框架与输出规范
-├── 📁 domains/                    # 6大行业独立知识体系（差异化内核）
-│   ├── 01_fmcg_beverage_dairy.md  # 消费品（含乳制品/饮料）
-│   ├── 02_supermarket.md          # 连锁商超
-│   ├── 03_bulk_snack.md           # 零食量贩（极简/高周转）
-│   ├── 04_convenience_store.md    # 便利店（鲜食/时段/客流）
-│   ├── 05_community_retail.md     # 社区零售（复购/私域/O2O）
-│   ├── 06_chain_retail_ops.md     # 泛连锁零售经营（同店/加盟商管理）
-└── 📁 templates/                  # 交付物标准模板
-    ├── prd_dictionary.md          # 需求文档与指标字典模板
-    └── quick_bi_wireframe.md      # Quick BI 专属看板布局设计稿模板
+/mnt/skills/user/fmcg-bi-dashboard/
+│
+├── SKILL.md                    ← 主入口，触发说明 + 完整流程
+│
+├── industries/                 ← 6个行业独立体系
+│   ├── snack-retail.md         零食量贩
+│   ├── beverage.md             饮料
+│   ├── dairy.md                乳制品
+│   ├── supermarket.md          商超
+│   ├── convenience-store.md    便利店
+│   └── community-retail.md     社区零售
+│
+├── roles/                      ← 6个角色的审查视角（内化用）
+│   ├── data-scientist.md
+│   ├── securities-analyst.md
+│   ├── retail-operations.md
+│   ├── data-pm.md
+│   ├── bi-architect.md
+│   └── mckinsey-consultant.md
+│
+├── templates/                  ← 交付物模板
+│   ├── prd-template.md         PRD文档模板
+│   ├── dashboard-wireframe.md  看板设计稿模板
+│   └── metric-dictionary.md    指标字典模板
+│
+└── process/                    ← 标准化流程
+    ├── step1-diagnosis.md      业务诊断
+    ├── step2-metrics.md        指标体系
+    ├── step3-structure.md      页面结构
+    ├── step4-visualization.md  可视化方案
+    └── step5-data-spec.md      数据口径
 ```
 
 ### 🚀 如何使用这个 Skill 工作？
