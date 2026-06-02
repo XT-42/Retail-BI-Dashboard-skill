@@ -6,35 +6,35 @@
 ```text
 /mnt/skills/user/fmcg-bi-dashboard/
 │
-├── SKILL.md                    ← 主入口，触发说明 + 完整流程
+├── 📘 SKILL.md                    ← 主入口：触发说明 + 完整流程
 │
-├── industries/                 ← 6个行业独立体系
-│   ├── snack-retail.md         零食量贩
-│   ├── beverage.md             饮料
-│   ├── dairy.md                乳制品
-│   ├── supermarket.md          商超
-│   ├── convenience-store.md    便利店
-│   └── community-retail.md     社区零售
+├── 🏭 industries/                 ← 6个行业独立体系
+│   ├── 🍪 snack-retail.md          零食量贩
+│   ├── 🥤 beverage.md              饮料
+│   ├── 🥛 dairy.md                 乳制品
+│   ├── 🛒 supermarket.md           商超
+│   ├── 🏪 convenience-store.md     便利店
+│   └── 🏘️ community-retail.md      社区零售
 │
-├── roles/                      ← 6个角色的审查视角（内化用）
-│   ├── data-scientist.md
-│   ├── securities-analyst.md
-│   ├── retail-operations.md
-│   ├── data-pm.md
-│   ├── bi-architect.md
-│   └── mckinsey-consultant.md
+├── 👥 roles/                      ← 6个角色的审查视角（内化用）
+│   ├── 🧪 data-scientist.md        数据科学家视角
+│   ├── 📈 securities-analyst.md    证券分析师视角
+│   ├── 🧑‍💼 retail-operations.md     零售运营视角
+│   ├── 📋 data-pm.md               数据产品经理视角
+│   ├── 🏗️ bi-architect.md          BI架构师视角
+│   └── 💼 mckinsey-consultant.md   麦肯锡顾问视角
 │
-├── templates/                  ← 交付物模板
-│   ├── prd-template.md         PRD文档模板
-│   ├── dashboard-wireframe.md  看板设计稿模板
-│   └── metric-dictionary.md    指标字典模板
+├── 🧩 templates/                  ← 交付物模板
+│   ├── 📄 prd-template.md          PRD文档模板
+│   ├── 🖼️ dashboard-wireframe.md   看板设计稿模板
+│   └── 📚 metric-dictionary.md     指标字典模板
 │
-└── process/                    ← 标准化流程
-    ├── step1-diagnosis.md      业务诊断
-    ├── step2-metrics.md        指标体系
-    ├── step3-structure.md      页面结构
-    ├── step4-visualization.md  可视化方案
-    └── step5-data-spec.md      数据口径
+└── ⚙️ process/                    ← 标准化流程
+    ├── 🔍 step1-diagnosis.md       业务诊断
+    ├── 📐 step2-metrics.md         指标体系
+    ├── 🧱 step3-structure.md       页面结构
+    ├── 📊 step4-visualization.md   可视化方案
+    └── 🧾 step5-data-spec.md       数据口径
 ```
 
 ### 🚀 如何使用这个 Skill 工作？
