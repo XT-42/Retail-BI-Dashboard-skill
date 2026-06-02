@@ -1,7 +1,13 @@
 # Retail-BI-Dashboard-skill
-这套体系通过 1个主控 System Prompt + 6个行业领域知识库 + 2套标准输出模板 构成。将6大顶级角色的能力深度内化在了工作流（Workflow）和思考框架（Think Frame）中，并严格贴合阿里云 Quick BI的功能特性进行最终交付。
+### 🎯这个 Skill 到底要解决什么问题？
+分析师在制作 BI 看板时，通常卡在三个地方：
+不知道该看什么 → 指标体系不清晰，不知道业务关心什么
+不知道怎么组织 → 页面结构乱，老板看不懂
+不知道好不好 → 没有行业标准参照，只能凭感觉
 
-📂 Skill 文件系统目录结构
+这个 Skill 的核心价值应该是：给定行业+业务场景，输出一套"拿来即用"的标准化看板蓝图，包括指标体系、页面结构、可视化建议、数据口径说明。
+
+### 📂 Skill 文件系统目录结构
 
 ```text
 /mnt/skills/user/fmcg-bi-dashboard/
@@ -9,33 +15,34 @@
 ├── 📘 SKILL.md                    ← 主入口：触发说明 + 完整流程
 │
 ├── 🏭 industries/                 ← 6个行业独立体系
-│   ├── 🍪 snack-retail.md          零食量贩
-│   ├── 🥤 beverage.md              饮料
-│   ├── 🥛 dairy.md                 乳制品
-│   ├── 🛒 supermarket.md           商超
-│   ├── 🏪 convenience-store.md     便利店
-│   └── 🏘️ community-retail.md      社区零售
+│   ├── snack-retail.md             零食量贩
+│   ├── beverage.md                 饮料
+│   ├── dairy.md                    乳制品
+│   ├── supermarket.md              商超
+│   ├── convenience-store.md        便利店
+│   └── community-retail.md         社区零售
 │
 ├── 👥 roles/                      ← 6个角色的审查视角（内化用）
-│   ├── 🧪 data-scientist.md        数据科学家视角
-│   ├── 📈 securities-analyst.md    证券分析师视角
-│   ├── 🧑‍💼 retail-operations.md     零售运营视角
-│   ├── 📋 data-pm.md               数据产品经理视角
-│   ├── 🏗️ bi-architect.md          BI架构师视角
-│   └── 💼 mckinsey-consultant.md   麦肯锡顾问视角
+│   ├── data-scientist.md           数据科学家视角
+│   ├── securities-analyst.md       证券分析师视角
+│   ├── retail-operations.md        零售运营视角
+│   ├── data-pm.md                  数据产品经理视角
+│   ├── bi-architect.md             BI架构师视角
+│   └── mckinsey-consultant.md      麦肯锡顾问视角
 │
 ├── 🧩 templates/                  ← 交付物模板
-│   ├── 📄 prd-template.md          PRD文档模板
-│   ├── 🖼️ dashboard-wireframe.md   看板设计稿模板
-│   └── 📚 metric-dictionary.md     指标字典模板
+│   ├── prd-template.md             PRD文档模板
+│   ├── dashboard-wireframe.md      看板设计稿模板
+│   └── metric-dictionary.md        指标字典模板
 │
 └── ⚙️ process/                    ← 标准化流程
-    ├── 🔍 step1-diagnosis.md       业务诊断
-    ├── 📐 step2-metrics.md         指标体系
-    ├── 🧱 step3-structure.md       页面结构
-    ├── 📊 step4-visualization.md   可视化方案
-    └── 🧾 step5-data-spec.md       数据口径
+    ├── step1-diagnosis.md          业务诊断
+    ├── step2-metrics.md            指标体系
+    ├── step3-structure.md          页面结构
+    ├── step4-visualization.md      可视化方案
+    └── step5-data-spec.md          数据口径
 ```
+
 
 ### 🚀 如何使用这个 Skill 工作？
 
